@@ -1,7 +1,6 @@
 package org.example.onetoten;
 
 import lombok.Getter;
-
 import java.util.Comparator;
 
 @Getter
