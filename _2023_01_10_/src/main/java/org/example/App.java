@@ -1,9 +1,7 @@
 package org.example;
 
 /*
-I know it can get confusing/messy to use this main.
-Sometimes, I don't do it (example: DaemonDemo).
-But I like the way using this main forces me to think.
+Still deciding how I want to organize my code
 */
 
 public class App
