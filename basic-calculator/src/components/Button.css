@@ -7,4 +7,6 @@
     background-color: #5A5A5A;
     color: white;
     flex: 1;
+
+    border: 1px solid white;
 }

@@ -1,17 +1,18 @@
 body {
     background-color: black;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .App {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 1rem;
 }
 
 .calc-wrapper {
     background-color: white;
     width: 400px;
-    border-radius: 16px;
 }
 
 .row {
