@@ -1,8 +1,8 @@
 import "./Button.css";
 
-const Button = () => {
+const Button = ({ symbol }) => {
     return (
-        <div className="button-wrapper">HEJ, KVINNA!</div>
+        <div className="button-wrapper">{symbol}</div>
     )
 }
 
