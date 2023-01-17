@@ -1,29 +1,41 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState } from "react";
 import './App.css';
 
+function complexFunction() {
+  console.log("In theory, you can go wild here.")
+  return Math.PI
+}
+
 export default function App() {
-  const [name, setName] = useState("");
 
-  const renderCount = useRef(1); // returns { current: 0 }
-  useEffect(() => { renderCount.current = renderCount.current + 1; })
+  const [simpleState, setSimpleState] = useState(4);
 
-  const inputRef = useRef("");
-  function focus() {
-    console.log(inputRef.current);
-    inputRef.current.focus();
+  function decrementCount() {
+    setSimpleState(countState => countState - 1)
+  } // setState is a function w/ Lambda param
+
+  function incrementCount() {
+    setSimpleState(countState => countState + 1)
   }
 
-  const previousName = useRef();
-  useEffect(() => {
-    previousName.current = name
-  }, [name])
+  //////////////////////////////////
+
+  const [piState, setPiState] = useState(() => complexFunction()); 
+  function decrementPi() {setPiState(x => x - 1)}
+  function incrementPi() {setPiState(x => x + 1)}
 
   return (
     <>
-    <input ref={inputRef} value={name} onChange={e => setName(e.target.value)}/>
-    <div>Hey, my name is {name}, but it used to be {previousName.current}</div>
-    <div>I rendered {renderCount.current} time(s).</div>
-    <button onClick={focus}>Focus</button>
+    <h1>Basic Decrement/Increment</h1>
+    <button onClick={decrementCount}>-</button>
+    <span> {simpleState} </span>
+    <button onClick={incrementCount}>+</button>
+    <br/>
+    <h1>Pi Decrement/Increment</h1>
+    <button onClick={decrementPi}>-</button>
+    <span> {piState} </span>
+    <button onClick={incrementPi}>+</button>
     </>
   );
+
 }
