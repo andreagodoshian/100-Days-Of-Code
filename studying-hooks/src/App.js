@@ -1,40 +1,60 @@
-import React, { useState } from "react";
+import React, { useReducer, useState } from "react";
+import Todo from "./Todo";
 import './App.css';
 
-function complexFunction() {
-  console.log("In theory, you can go wild here.")
-  return Math.PI
+export const ACTIONS = {
+  ADD_TODO: "add-todo",
+  TOGGLE_TODO: "toggle-todo",
+  DELETE_TODO: "delete-todo"
+}
+
+function reducerFunction(currentState, action) {
+  switch (action.type) {
+    case ACTIONS.ADD_TODO:
+      return [...currentState, newTodo(action.payload.name)]
+    case ACTIONS.TOGGLE_TODO:
+      return currentState.map(x => {
+        if (x.id === action.payload.id) {
+          return { ...x, complete: !x.complete}
+        }
+        else {
+          return x;
+        }
+      })
+    case ACTIONS.DELETE_TODO:
+      return currentState.filter(x => x.id !== action.payload.id);
+    default:
+      return currentState;
+
+  }
+}
+
+function newTodo(name) {
+  return {id: Date.now(), name: name, complete: false}
 }
 
 export default function App() {
+  const [todos, dispatch] = useReducer(reducerFunction, []);
+  const [name, setName] = useState("");
 
-  const [simpleState, setSimpleState] = useState(4);
-
-  function decrementCount() {
-    setSimpleState(countState => countState - 1)
-  } // setState is a function w/ Lambda param
-
-  function incrementCount() {
-    setSimpleState(countState => countState + 1)
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    dispatch({type: ACTIONS.ADD_TODO, payload: {name: name}})
+    setName("")
   }
-
-  //////////////////////////////////
-
-  const [piState, setPiState] = useState(() => complexFunction()); 
-  function decrementPi() {setPiState(x => x - 1)}
-  function incrementPi() {setPiState(x => x + 1)}
 
   return (
     <>
-    <h1>Basic Decrement/Increment</h1>
-    <button onClick={decrementCount}>-</button>
-    <span> {simpleState} </span>
-    <button onClick={incrementCount}>+</button>
-    <br/>
-    <h1>Pi Decrement/Increment</h1>
-    <button onClick={decrementPi}>-</button>
-    <span> {piState} </span>
-    <button onClick={incrementPi}>+</button>
+    <h1>useReducer() is tough</h1>
+    <form onSubmit={handleSubmit}>
+      <input type="text" 
+      value={name} 
+      onChange={e => setName(e.target.value)}/>
+    </form>
+
+    {todos.map(x => {
+      return <Todo key={x.id} todo={x} dispatch={dispatch}/>;
+    })}
     </>
   );
 
