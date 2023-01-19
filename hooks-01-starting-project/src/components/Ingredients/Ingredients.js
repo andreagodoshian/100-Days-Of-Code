@@ -5,6 +5,8 @@ import IngredientList from "./IngredientList";
 import Search from './Search';
 import ErrorModal from "../UI/ErrorModal";
 
+//////////////////////////////////
+
 const ingredientReducer = (currentIngredients, action) => {
   switch (action.type) {
     case "SET":
@@ -33,69 +35,54 @@ const httpReducer = (currentHttpState, action) => {
   }
 }
 
+///////////////////////////////////////
 
 function Ingredients() {
   const [userIngredients, dispatch] = useReducer(ingredientReducer, []);
   const [httpState, dispatchHttp] = useReducer(httpReducer, {loading: false, error: null});
-
-  // const [userIngredients, setUserIngredients] = useState([]);
-  // const [ isLoading, setIsLoading ] = useState(false);
-  // const [error, setError] = useState();
 
   useEffect(() => {
     console.log("RENDERING INGREDIENTS", userIngredients);
   }, [userIngredients]);
 
   // POST request
-  const addIngredientHandler = ingredient => {
-    // setIsLoading(true);
+  const addIngredientHandler = useCallback(ingredient => {
     dispatchHttp({type: "SEND"})
     fetch("https://intro-to-reactjs-default-rtdb.firebaseio.com/ingredients.json", {
       method: "POST",
       body: JSON.stringify(ingredient),
       headers: {"Content-Type": "application/json"}
     }).then(response => {
-      // setIsLoading(false);
       dispatchHttp({type: "RESPONSE"})
       return response.json()
     }).then(responseData => {
-      // setUserIngredients(prevIngredients => 
-      //   [...prevIngredients, 
-      //     {id: responseData.name, ...ingredient}])
       dispatch({type: "ADD", ingredient: {id: responseData.name, ...ingredient}})
       })
-  }
+  }, []) // no external, but [] 
+  // "callback hell" -JJQuery
 
     // DELETE request
-    const removeIngredientHandler = ingredientId => {
-      //setIsLoading(true)
+    const removeIngredientHandler = useCallback(ingredientId => {
       dispatchHttp({type: "SEND"})
       fetch(`https://intro-to-reactjs-default-rtdb.firebaseio.com/ingredients/${ingredientId}.json`, {
         method: "DELETE"
       }).then(response => {
-        // setIsLoading(false)
         dispatchHttp({type: "RESPONSE"})
-        // setUserIngredients(prevIngredients =>
-        //   prevIngredients.filter(ingredient => ingredient.id !== ingredientId)) 
         dispatch({type: "DELETE", id: ingredientId})      
       }).catch(e => {
-        // setError(error.message)
-        // setIsLoading(false);
         dispatchHttp({type: "ERROR", errorData: e.message})
       })
-    }
+    }, []);
 
-  // SEARCH function
+  // SEARCH
   const filteredIngredientsHandler = useCallback(filteredIngredients => {
-    // setUserIngredients(filteredIngredients);
     dispatch({type: "SET", ingredients: filteredIngredients})
   }, []);
 
-  // Catching Errors && Clearing them
-  const clearError = () => {
-    // setError(null);
+  // ERROR RESET
+  const clearError = useCallback(() => {
     dispatchHttp({type: "CLEAR"})
-  }
+  }, []);
 
   return (
     <div className="App">
