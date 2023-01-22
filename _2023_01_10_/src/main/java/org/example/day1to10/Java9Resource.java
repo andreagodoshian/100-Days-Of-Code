@@ -1,4 +1,4 @@
-package org.example.onetoten;
+package org.example.day1to10;
 
 public class Java9Resource implements AutoCloseable {
 

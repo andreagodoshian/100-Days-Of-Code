@@ -1,4 +1,4 @@
-package org.example.onetoten;
+package org.example.day1to10;
 
 @java.lang.FunctionalInterface
 public interface FunctionalInterface {

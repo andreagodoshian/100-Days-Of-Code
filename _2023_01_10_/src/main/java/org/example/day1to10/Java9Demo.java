@@ -1,4 +1,4 @@
-package org.example.onetoten;
+package org.example.day1to10;
 
 /*
 Starting in Java 9...

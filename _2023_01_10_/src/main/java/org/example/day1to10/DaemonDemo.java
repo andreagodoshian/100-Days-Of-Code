@@ -1,4 +1,4 @@
-package org.example.onetoten;
+package org.example.day1to10;
 
 // Source: https://www.youtube.com/watch?v=uRJj6S3WYP4&t=43s
 public class DaemonDemo {
