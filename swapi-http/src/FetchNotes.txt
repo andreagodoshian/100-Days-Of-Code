@@ -1,0 +1,36 @@
+  // fetch -> then return -> then return
+  
+  function fetchMoviesHandler() {
+    fetch("https://swapi.dev/api/films")
+    .then(r => { return r.json() }) // response
+    .then(j => { // json
+      const transformedMovies = j.results.map(x => {
+        return {
+          id: x.episode_id,
+          title: x.title,
+          openingText: x.opening_crawl,
+          releaseDate: x.releaseDate
+        }
+      });
+      setMovies(transformedMovies);
+    })
+    .catch()
+
+    //////////////////////////////
+
+    // async + await
+
+    async function fetchMoviesHandler() {
+    const response = await fetch("https://swapi.dev/api/films");
+    const data = await response.json();
+
+    const transformedMovies = data.results.map((x) => {
+      return {
+        id: x.episode_id,
+        title: x.title,
+        openingText: x.opening_crawl,
+        releaseDate: x.releaseDate,
+      };
+    });
+    setMovies(transformedMovies);
+  }
