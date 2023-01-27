@@ -20,9 +20,13 @@ export class CourseComponent {
   title = 'List of courses';
   courses: any;
 
-  constructor() {
+  // NOTE: where is the Dependency Injection??
+  // the annotation is in app.module.ts 
+  constructor(service: CoursesService) {
 
-    let service = new CoursesService();
+    // let service = new CoursesService();
+    // ^^^ tight coupling!!
+
     this.courses = service.getCourses();
   }
 
