@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21c0f281-d73f-4b5b-908d-d50042969b8e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/day11to20/TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/day11to20/ContainsDuplicate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +40,20 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/kvinn/Code/100-Days-Of-Code/graphql-basics&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TwoSum">
+  <component name="RunManager" selected="Application.ContainsDuplicate">
+    <configuration name="ContainsDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.day11to20.ContainsDuplicate" />
+      <module name="_2023_01_10_" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.day11to20.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DecodeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.day11to20.DecodeString" />
       <module name="_2023_01_10_" />
@@ -94,26 +106,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.day11to20.ValidParentheses" />
-      <module name="_2023_01_10_" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.day11to20.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ContainsDuplicate" />
         <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.GroupAnagrams" />
         <item itemvalue="Application.DecodeString" />
         <item itemvalue="Application.LongestPalindrome" />
-        <item itemvalue="Application.ValidParentheses" />
       </list>
     </recent_temporary>
   </component>
