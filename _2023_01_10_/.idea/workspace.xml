@@ -6,6 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="21c0f281-d73f-4b5b-908d-d50042969b8e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/day21to30/NthRoot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/day21to30/NthRoot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redux-basics/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../redux-basics/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redux-basics/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../redux-basics/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redux-basics/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../redux-basics/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redux-basics/src/components/Auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/../redux-basics/src/components/Auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redux-basics/src/components/Counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/../redux-basics/src/components/Counter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redux-basics/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/../redux-basics/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redux-basics/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../redux-basics/src/store/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +48,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/kvinn/Code/100-Days-Of-Code/graphql-basics&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.NthRoot">
+  <component name="RunManager" selected="Application.LinkedLists">
     <configuration name="CanPlaceFlowers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.day21to30.CanPlaceFlowers" />
       <module name="_2023_01_10_" />
@@ -54,12 +62,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContainsDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.day11to20.ContainsDuplicate" />
+    <configuration name="LengthLastWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.day21to30.LengthLastWord" />
       <module name="_2023_01_10_" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.day11to20.*" />
+          <option name="PATTERN" value="org.example.day21to30.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,8 +75,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LengthLastWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.day21to30.LengthLastWord" />
+    <configuration name="LinkedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.day21to30.LinkedLists" />
+      <module name="_2023_01_10_" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.day21to30.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSortLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.day21to30.MergeSortLists" />
       <module name="_2023_01_10_" />
       <extension name="coverage">
         <pattern>
@@ -93,26 +114,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.day11to20.TwoSum" />
-      <module name="_2023_01_10_" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.day11to20.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedLists" />
+        <item itemvalue="Application.MergeSortLists" />
         <item itemvalue="Application.NthRoot" />
         <item itemvalue="Application.CanPlaceFlowers" />
         <item itemvalue="Application.LengthLastWord" />
-        <item itemvalue="Application.ContainsDuplicate" />
-        <item itemvalue="Application.TwoSum" />
       </list>
     </recent_temporary>
   </component>
