@@ -13,7 +13,7 @@ public class Runner {
         list.add(3, 12);
          */
 
-        LinkedList list = new LinkedList();
+        LinkedListCustom list = new LinkedListCustom();
         list.insert(18);
         list.insert(45);
         list.insert(12);

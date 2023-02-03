@@ -1,6 +1,6 @@
 package org.example.day21to30;
 
-public class LinkedList {
+public class LinkedListCustom {
     // it's in a different package soooooooo it's fine?
 
     Node head;
