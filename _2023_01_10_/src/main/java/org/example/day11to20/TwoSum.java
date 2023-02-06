@@ -11,7 +11,7 @@ public class TwoSum {
         int[] ans = solution(arr, 9);
 
         for (int x: ans) {
-            System.out.println(x);
+            System.out.print(x + " ");
         }
 
     }
@@ -20,7 +20,7 @@ public class TwoSum {
         int[] ans = new int[2];
         HashMap<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
-            int diff = target - nums[1];
+            int diff = target - nums[i];
             if (map.containsKey(diff)) {
                 ans[0] = i;
                 ans[1] = map.get(diff);
