@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21c0f281-d73f-4b5b-908d-d50042969b8e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/day21to30/PalindromeChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/day21to30/ShuffleArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/day21to30/PalindromeChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/day21to30/PalindromeChecker.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,38 +38,38 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/kvinn/Code/23-01-Grades/Steven_Taborda_Java&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kvinn/Code/23-01-Grades/M2-Challenge-Velasquez-Robert/chatterbook&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PalindromeChecker">
-    <configuration name="BuySellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.day21to30.BuySellStock" />
-      <module name="_2023_01_10_" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.day21to30.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MoveZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.day21to30.MoveZeroes" />
-      <module name="_2023_01_10_" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.day21to30.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.RomanToInt">
     <configuration name="PalindromeChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.day21to30.PalindromeChecker" />
+      <module name="_2023_01_10_" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.day21to30.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Rant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.day21to30.Rant" />
+      <module name="_2023_01_10_" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.day21to30.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RomanToInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.day21to30.RomanToInt" />
       <module name="_2023_01_10_" />
       <extension name="coverage">
         <pattern>
@@ -110,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RomanToInt" />
+        <item itemvalue="Application.Rant" />
         <item itemvalue="Application.PalindromeChecker" />
         <item itemvalue="Application.ShuffleArray" />
         <item itemvalue="Application.TwoSum" />
-        <item itemvalue="Application.MoveZeroes" />
-        <item itemvalue="Application.BuySellStock" />
       </list>
     </recent_temporary>
   </component>
