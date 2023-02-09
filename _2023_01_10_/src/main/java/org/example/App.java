@@ -1,7 +1,10 @@
 package org.example;
 
 /*
-Still deciding how I want to organize my code
+NEED TO KNOW:
+-Reverse int
+-The Longest common prefix
+-Roman to int
 */
 
 public class App
