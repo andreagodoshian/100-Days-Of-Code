@@ -12,25 +12,23 @@ public class App
     public static void main( String[] args ) {
         System.out.println("Hej Världen!");
 
-        System.out.println(solution(1));
-        System.out.println(solution(-1));
-        System.out.println(solution(12321));
+        String[] myArr1 = new String[]{"flower", "flow", "flight"};
+        String[] myArr2 = new String[]{"dog"};
+        String[] myArr3 = new String[]{"car", "bar", "tar"};
+        System.out.println(solution(myArr1));
+        System.out.println(solution(myArr2));
+        System.out.println(solution(myArr3));
+
     }
 
-    public static boolean solution(int x) {
-        if (x < 0) return false;
-        else if (x < 10) return true;
-        else {
-            int remainder = 0;
-            int reversed = 0;
-            int temp = x;
-
-            while (temp > 0) {
-                remainder = temp % 10;
-                reversed = (reversed * 10) + remainder;
-                temp /= 10;
+    public static String solution(String[] arr) {
+        if (arr.length == 0) return "";
+        String prefix = arr[0];
+        for (int i = 1; i < arr.length; i++) {
+            while (arr[i].indexOf(prefix) != 0) {
+                prefix = prefix.substring(0, prefix.length() - 1);
             }
-            return (x == reversed);
         }
+        return prefix;
     }
 }
