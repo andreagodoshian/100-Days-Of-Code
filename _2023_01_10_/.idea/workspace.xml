@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21c0f281-d73f-4b5b-908d-d50042969b8e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/day31to40/RemoveArrElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +42,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/kvinn/Code/23-01-Answers/nflx-java-12week-main/01-lesson-plans/04-summative-project-1-module/challenge/solved&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.RemoveArrElement">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="_2023_01_10_" />
@@ -67,8 +69,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromeChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.day21to30.PalindromeChecker" />
+    <configuration name="Rant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.day21to30.Rant" />
       <module name="_2023_01_10_" />
       <extension name="coverage">
         <pattern>
@@ -80,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Rant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.day21to30.Rant" />
+    <configuration name="RemoveArrElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.day31to40.RemoveArrElement" />
       <module name="_2023_01_10_" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.day21to30.*" />
+          <option name="PATTERN" value="org.example.day31to40.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveArrElement" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.CommonPrefix" />
         <item itemvalue="Application.RomanToInt" />
         <item itemvalue="Application.Rant" />
-        <item itemvalue="Application.PalindromeChecker" />
       </list>
     </recent_temporary>
   </component>
