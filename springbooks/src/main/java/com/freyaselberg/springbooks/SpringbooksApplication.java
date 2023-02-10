@@ -1,13 +1,13 @@
-package com.freyaselberg.dockerexample;
+package com.freyaselberg.springbooks;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DockerExampleApplication {
+public class SpringbooksApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DockerExampleApplication.class, args);
+		SpringApplication.run(SpringbooksApplication.class, args);
 	}
 
 }
