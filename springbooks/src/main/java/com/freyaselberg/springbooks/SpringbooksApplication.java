@@ -3,6 +3,8 @@ package com.freyaselberg.springbooks;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+// http://localhost:8080/graphiql?path=/graphql
+
 @SpringBootApplication
 public class SpringbooksApplication {
 
