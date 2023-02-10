@@ -13,3 +13,29 @@ public class SpringbooksApplication {
 	}
 
 }
+
+/*
+Example of a GraphQL queries:
+--------------------------------
+query {
+  findOne(id: 1) {
+    title
+    pages
+  }
+}
+--------------------------------
+query {
+  allBooks {
+    id
+    title
+    pages
+    rating {
+      star
+    }
+    author {
+      firstName
+      lastName
+    }
+  }
+}
+*/

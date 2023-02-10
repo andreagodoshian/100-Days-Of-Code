@@ -5,7 +5,171 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21c0f281-d73f-4b5b-908d-d50042969b8e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/day11to20/ContainsDuplicate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/day11to20/DecodeString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/day11to20/GroupAnagrams.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/day11to20/LongestPalindrome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/day11to20/TwoSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/day11to20/ValidParentheses.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/day1to10/DaemonDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/day1to10/FunctionalInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/day1to10/Java10Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/day1to10/Java9Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/day1to10/Java9Interface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/day1to10/Java9Resource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/day1to10/LambdaJava8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/day1to10/LambdaThreadDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/day1to10/PredicateBasics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/day1to10/ThreadJoining.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/day21to30/BuySellStock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/day21to30/CanPlaceFlowers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/day21to30/CommonPrefix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/day21to30/Kadens.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/day21to30/LLvsAL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/day21to30/LengthLastWord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/day21to30/LinkedListCustom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/day21to30/MoveZeroes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/day21to30/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/day21to30/NthRoot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/day21to30/PalindromeChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/day21to30/RomanToInt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/day21to30/Runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/day21to30/ShuffleArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/day31to40/RemoveArrElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/day11to20/ContainsDuplicate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/day11to20/DecodeString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/day11to20/GroupAnagrams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/day11to20/LongestPalindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/day11to20/TwoSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/day11to20/ValidParentheses.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/day1to10/DaemonDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/day1to10/FunctionalInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/day1to10/Java10Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/day1to10/Java9Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/day1to10/Java9Interface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/day1to10/Java9Resource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/day1to10/LambdaJava8$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/day1to10/LambdaJava8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/day1to10/LambdaThreadDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/day1to10/PredicateBasics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/day1to10/ThreadJoining.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/day21to30/BuySellStock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/day21to30/CanPlaceFlowers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/day21to30/CommonPrefix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/day21to30/Kadens.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/day21to30/LLvsAL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/day21to30/LengthLastWord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/day21to30/LinkedListCustom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/day21to30/MoveZeroes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/day21to30/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/day21to30/NthRoot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/day21to30/PalindromeChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/day21to30/RomanToInt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/day21to30/Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/day21to30/ShuffleArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/day31to40/RemoveArrElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-example/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphql-basics/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphql-basics/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphql-basics/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphql-basics/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphql-basics/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphql-basics/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphql-basics/src/main/java/com/freyaselberg/graphqlbasics/GraphqlBasicsApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphql-basics/src/main/java/com/freyaselberg/graphqlbasics/controller/GraphQLController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphql-basics/src/main/java/com/freyaselberg/graphqlbasics/model/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphql-basics/src/main/java/com/freyaselberg/graphqlbasics/model/GraphQLRequestBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphql-basics/src/main/java/com/freyaselberg/graphqlbasics/repo/BookRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphql-basics/src/main/java/com/freyaselberg/graphqlbasics/service/BookService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphql-basics/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphql-basics/src/main/resources/schema.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphql-basics/src/main/resources/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphql-basics/src/test/java/com/freyaselberg/graphqlbasics/GraphqlBasicsApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hooks-01-starting-project/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hooks-01-starting-project/how-to-use.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hooks-01-starting-project/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hooks-01-starting-project/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hooks-01-starting-project/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hooks-01-starting-project/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hooks-01-starting-project/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hooks-01-starting-project/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hooks-01-starting-project/src/components/Auth.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hooks-01-starting-project/src/components/Auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hooks-01-starting-project/src/components/Ingredients/IngredientForm.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hooks-01-starting-project/src/components/Ingredients/IngredientForm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hooks-01-starting-project/src/components/Ingredients/IngredientList.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hooks-01-starting-project/src/components/Ingredients/IngredientList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hooks-01-starting-project/src/components/Ingredients/Ingredients.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hooks-01-starting-project/src/components/Ingredients/Search.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hooks-01-starting-project/src/components/Ingredients/Search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hooks-01-starting-project/src/components/UI/Card.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hooks-01-starting-project/src/components/UI/Card.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hooks-01-starting-project/src/components/UI/ErrorModal.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hooks-01-starting-project/src/components/UI/ErrorModal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hooks-01-starting-project/src/components/UI/LoadingIndicator.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hooks-01-starting-project/src/components/UI/LoadingIndicator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hooks-01-starting-project/src/context/auth-context.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hooks-01-starting-project/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hooks-01-starting-project/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbooks/src/main/java/com/freyaselberg/springbooks/SpringbooksApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springbooks/src/main/java/com/freyaselberg/springbooks/SpringbooksApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbooks/src/main/java/com/freyaselberg/springbooks/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springbooks/src/main/java/com/freyaselberg/springbooks/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbooks/src/main/resources/graphql/schema.graphqls" beforeDir="false" afterPath="$PROJECT_DIR$/../springbooks/src/main/resources/graphql/schema.graphqls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studying-react/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studying-react/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studying-react/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studying-react/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studying-react/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studying-react/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studying-react/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studying-react/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studying-react/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studying-react/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studying-react/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studying-react/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studying-react/src/Todo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studying-react/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studying-react/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studying-react/src/notes/basicForm.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studying-react/src/notes/useReducer-basic.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studying-react/src/notes/useRef.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studying-react/src/notes/useState.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studying-react/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../username-age/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../username-age/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../username-age/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../username-age/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../username-age/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../username-age/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../username-age/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../username-age/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../username-age/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../username-age/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../username-age/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../username-age/src/components/UI/Button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../username-age/src/components/UI/Button.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../username-age/src/components/UI/Card.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../username-age/src/components/UI/Card.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../username-age/src/components/UI/ErrorModal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../username-age/src/components/UI/ErrorModal.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../username-age/src/components/Users/AddUser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../username-age/src/components/Users/AddUser.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../username-age/src/components/Users/UsersList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../username-age/src/components/Users/UsersList.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../username-age/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../username-age/src/index.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,13 +201,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/kvinn/Code/100-Days-Of-Code/containerized-db-demo"
+    "last_opened_file_path": "C:/Users/kvinn/Code/100-Days-Of-Code/java-study-and-practice"
   }
 }]]></component>
   <component name="RunManager" selected="Application.RemoveArrElement">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
-      <module name="_2023_01_10_" />
+      <module name="java-study-and-practice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -56,7 +220,7 @@
     </configuration>
     <configuration name="CommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.day21to30.CommonPrefix" />
-      <module name="_2023_01_10_" />
+      <module name="java-study-and-practice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.day21to30.*" />
@@ -69,7 +233,7 @@
     </configuration>
     <configuration name="Rant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.day21to30.Rant" />
-      <module name="_2023_01_10_" />
+      <module name="java-study-and-practice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.day21to30.*" />
@@ -82,7 +246,7 @@
     </configuration>
     <configuration name="RemoveArrElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.day31to40.RemoveArrElement" />
-      <module name="_2023_01_10_" />
+      <module name="java-study-and-practice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.day31to40.*" />
@@ -95,7 +259,7 @@
     </configuration>
     <configuration name="RomanToInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.day21to30.RomanToInt" />
-      <module name="_2023_01_10_" />
+      <module name="java-study-and-practice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.day21to30.*" />
