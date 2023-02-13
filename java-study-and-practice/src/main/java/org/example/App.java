@@ -14,24 +14,22 @@ public class App
     public static void main( String[] args ) {
         System.out.println("Hej Världen!");
 
-        System.out.println(solution(2));
-        System.out.println(solution(-2));
-        System.out.println(solution(20));
-        System.out.println(solution(202));
+        String[] myArr1 = new String[]{"flower", "flow", "flight"};
+        String[] myArr2 = new String[]{"dog"};
+        String[] myArr3 = new String[]{"car", "bar", "tar"};
+        System.out.println(solution(myArr1));
+        System.out.println(solution(myArr2));
+        System.out.println(solution(myArr3));
     }
 
 
-    public static boolean solution(int x) {
-        if (x<0) return false;
-        if(x<10) return true;
-        int remainder = 0;
-        int answer = 0;
-        int temp = x;
-        while (temp > 0) {
-            remainder = temp % 10;
-            answer = (answer * 10) + remainder;
-            temp /= 10;
+    public static String solution(String[] strs) {
+        String prefix = strs[0];
+        for (int i = 1; i < strs.length; i++) {
+            while (strs[i].indexOf(prefix) != 0) {
+                prefix = prefix.substring(0, prefix.length() - 1);
+            }
         }
-        return (answer == x);
+        return prefix;
     }
 }
