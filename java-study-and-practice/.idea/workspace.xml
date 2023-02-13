@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21c0f281-d73f-4b5b-908d-d50042969b8e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/day31to40/RemoveArrDuplicates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/day31to40/PlusOneArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/day31to40/PlusOneArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/day31to40/PlusOneArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/day31to40/PlusOneArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/oneoonecode/swaggercrashcourse/SwaggercrashcourseApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/oneoonecode/swaggercrashcourse/controllers/CreateToDoItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/oneoonecode/swaggercrashcourse/controllers/DeleteToDoItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/oneoonecode/swaggercrashcourse/controllers/GetAllToDoItems.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/oneoonecode/swaggercrashcourse/controllers/GetToDoItemById.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/oneoonecode/swaggercrashcourse/controllers/UpdateToDoItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/oneoonecode/swaggercrashcourse/models/ToDoItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/oneoonecode/swaggercrashcourse/SwaggercrashcourseApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,14 +41,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/kvinn/Code/23-01-Answers/nflx-java-12week-main/01-lesson-plans/04-summative-project-1-module/challenge/solved&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/kvinn/Code/100-Days-Of-Code/swagger-basics"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.RemoveArrDuplicates">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
