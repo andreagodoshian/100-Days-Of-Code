@@ -93,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RomanToInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.day21to30.RomanToInt" />
+    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.day11to20.TwoSum" />
       <module name="java-study-and-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.day21to30.*" />
+          <option name="PATTERN" value="org.example.day11to20.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,10 +109,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.App" />
+        <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.PlusOneArray" />
         <item itemvalue="Application.RemoveArrElement" />
         <item itemvalue="Application.CommonPrefix" />
-        <item itemvalue="Application.RomanToInt" />
       </list>
     </recent_temporary>
   </component>

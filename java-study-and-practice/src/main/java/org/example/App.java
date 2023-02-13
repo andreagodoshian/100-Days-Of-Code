@@ -9,29 +9,40 @@ NEED TO KNOW:
 -Roman -> int
 */
 
+import java.util.HashMap;
 import java.util.Stack;
 
 public class App
 {
     public static void main( String[] args ) {
-        System.out.println("Hej Världen!");
 
-        System.out.println(isValid("{}[]()"));
+        System.out.println("Hej! I shouldn't have eaten all those rice krispies :( not treats, just the cereal.");
+
+        int[] arr = new int[]{2, 7, 11, 15};
+        int[] ans = solution(arr, 9);
+
+        for (int x: ans) {
+            System.out.print(x + " ");
+        }
     }
 
+    public static int[] solution(int[] nums, int target) {
+        HashMap<Integer, Integer> map = new HashMap<>();
+        int[] answer = new int[2];
+        int index = 0;
 
-    public static boolean isValid(String s) {
-        Stack<Character> stack = new Stack<Character>();
-        for (char c : s.toCharArray()) {
-            if (c == '(')
-                stack.push(')');
-            else if (c == '{')
-                stack.push('}');
-            else if (c == '[')
-                stack.push(']');
-            else if (stack.isEmpty() || stack.pop() != c)
-                return false;
+        for (int x:nums) {
+            int diff = target - x;
+            if (map.containsKey(diff)) {
+                answer[0] = index;
+                answer[1] = map.get(diff);
+                break;
+            }
+            else {
+                map.put(x, index);
+                index++;
+            }
         }
-        return stack.isEmpty();
+        return answer;
     }
 }
