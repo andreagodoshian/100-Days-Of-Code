@@ -6,15 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="21c0f281-d73f-4b5b-908d-d50042969b8e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/oneoonecode/swaggercrashcourse/SwaggercrashcourseApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/oneoonecode/swaggercrashcourse/controllers/CreateToDoItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/oneoonecode/swaggercrashcourse/controllers/DeleteToDoItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/oneoonecode/swaggercrashcourse/controllers/GetAllToDoItems.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/oneoonecode/swaggercrashcourse/controllers/GetToDoItemById.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/oneoonecode/swaggercrashcourse/controllers/UpdateToDoItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/oneoonecode/swaggercrashcourse/models/ToDoItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/com/oneoonecode/swaggercrashcourse/SwaggercrashcourseApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/day31to40/SearchInsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/day31to40/SearchInsert.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,10 +39,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/kvinn/Code/100-Days-Of-Code/swagger-basics"
+    "last_opened_file_path": "C:/Users/kvinn/Code/redditclonedemo"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RemoveArrDuplicates">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="java-study-and-practice" />
@@ -117,8 +110,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RemoveArrDuplicates" />
         <item itemvalue="Application.App" />
+        <item itemvalue="Application.RemoveArrDuplicates" />
         <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.PlusOneArray" />
         <item itemvalue="Application.RemoveArrElement" />
