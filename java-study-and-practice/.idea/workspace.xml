@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="21c0f281-d73f-4b5b-908d-d50042969b8e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/day31to40/SearchInsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/day31to40/SearchInsert.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +38,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/kvinn/Code/redditclonedemo"
+    "last_opened_file_path": "C:/Users/kvinn/Code/100-Days-Of-Code/jwt-demo"
   }
 }]]></component>
   <component name="RunManager" selected="Application.App">

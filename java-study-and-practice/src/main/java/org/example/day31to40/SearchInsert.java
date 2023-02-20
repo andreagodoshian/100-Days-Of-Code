@@ -17,21 +17,25 @@ public class SearchInsert {
     public static int solution(int[] nums, int target) {
         System.out.println("Target: " + target);
         int answer = 0;
-        if (nums.length == 0) return answer;
-        else {
-            for (int i = 0; i < nums.length; i++) {
-                if (target > nums[i] && target <= nums[i+1]) {
+        if (nums.length == 0) return 0;
+        else if (nums.length == 1) {
+            if (target <= nums[0]) {
+                return 0;
+            } else return 1;
+        } else {
+            for (int i = 0; i < nums.length - 1; i++) {
+                if (target == nums[i]) {
+                    answer = i;
+                    break;
+                } else if (target > nums[i] && target <= nums[i + 1]) {
                     answer = i + 1;
                     break;
-                }
-                // need to catch BEFORE error (i.e. nums[i+1])
-                // general "else" won't work here
-                else if (target > nums[i+1] && nums.length-1 == i+1) {
+                } else if (target > nums[i + 1] && (nums.length - 1 == i + 1)) {
                     answer = nums.length;
                     break;
                 }
             }
+            return answer;
         }
-        return answer;
     }
 }
