@@ -1,4 +1,4 @@
-package com.freyaselberg.jwtdemo.config;
+package com.freyaselberg.jwtdemo.service;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
