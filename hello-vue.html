@@ -12,18 +12,18 @@
       }
 
       .box {
-        background-color:blue;
+        background-color: blue;
         height: 200px;
         width: 200px;
       }
       .box.ifElse {
-        background-color:cornflowerblue;
+        background-color: cornflowerblue;
       }
       .box.else {
         background-color: aquamarine;
       }
       [v-cloak] {
-        display:none;
+        display: none;
       } /* Note: it's in brackets because it's not a class */
     </style>
   </head>
@@ -46,10 +46,10 @@
         but only "class=box else" element shows for the v-ifs -->
       <!-- "v-show" is a good choice if toggling (aka not adding/removing all the time) -->
       <hr />
-      <p>P.S.
-        <br/>This "Go Live" extension is pretty kewl :P
-        <br/>But the "copy path" trick is also kewl... idk why I'm just now learning
-        these things? Whatevs.
+      <p>
+        P.S. <br />This "Go Live" extension is pretty kewl :P <br />But the
+        "copy path" trick is also kewl... idk why I'm just now learning these
+        things? Whatevs.
       </p>
     </div>
 
@@ -61,19 +61,20 @@
             greeting: "H-h-h hewwo Vue Fwee?",
             ifVisible: false,
             ifVisible2: false,
-            vshowBox: false
+            vshowBox: false,
           };
         },
         methods: {
           toggleBox() {
-            this.vshowBox = !this.vshowBox
+            this.vshowBox = !this.vshowBox;
           },
           greet(test) {
             alert("Thank you for pressing enter! This is only a " + test);
             console.log(this.greeting);
-          }
-        }
+          },
+        },
       });
+
       app.mount("#app");
     </script>
   </body>
