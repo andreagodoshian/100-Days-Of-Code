@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Source: https://www.youtube.com/watch?v=FXpIoQ_rT_c&t=3s -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intro to Vue.js</title>
+    <style>
+      * {
+        font-family: "Courier New", Courier, monospace;
+      }
+
+      .box {
+        background-color:blue;
+        height: 200px;
+        width: 200px;
+      }
+      .box.ifElse {
+        background-color:cornflowerblue;
+      }
+      .box.else {
+        background-color: aquamarine;
+      }
+      [v-cloak] {
+        display:none;
+      } /* Note: it's in brackets because it's not a class */
+    </style>
+  </head>
+
+  <body>
+    <div id="app" v-cloak>
+      <!-- "v-cloak" prevents *everything* from rendering when page refreshes 
+      Note: you have to add a style for it though (inspect the HTML)-->
+      <h1>{{ greeting }}</h1>
+      <input @keyup.enter="greet('test')" v-model="greeting" />
+      <hr />
+      <div v-if="ifVisible" class="box if">One</div>
+      <div v-else-if="ifVisible2" class="box ifElse">Two</div>
+      <div v-else class="box else">Three</div>
+      <hr />
+      <!-- SHORTHAND: <button @click="toggleBox = !toggleBox"> -->
+      <button v-on:click="toggleBox">Toggle Box</button>
+      <div v-show="vshowBox" class="box"></div>
+      <!-- NOTE: "v-show" is still in HTML inspection (style="display: none;")
+        but only "class=box else" element shows for the v-ifs -->
+      <!-- "v-show" is a good choice if toggling (aka not adding/removing all the time) -->
+      <hr />
+      <p>P.S.
+        <br/>This "Go Live" extension is pretty kewl :P
+        <br/>But the "copy path" trick is also kewl... idk why I'm just now learning
+        these things? Whatevs.
+      </p>
+    </div>
+
+    <script src="https://unpkg.com/vue@next"></script>
+    <script>
+      let app = Vue.createApp({
+        data: function () {
+          return {
+            greeting: "H-h-h hewwo Vue Fwee?",
+            ifVisible: false,
+            ifVisible2: false,
+            vshowBox: false
+          };
+        },
+        methods: {
+          toggleBox() {
+            this.vshowBox = !this.vshowBox
+          },
+          greet(test) {
+            alert("Thank you for pressing enter! This is only a " + test);
+            console.log(this.greeting);
+          }
+        }
+      });
+      app.mount("#app");
+    </script>
+  </body>
+</html>
