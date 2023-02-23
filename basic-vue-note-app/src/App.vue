@@ -10,11 +10,17 @@ const getRandomColor = () => {
   return "hsl(" + Math.random() * 360 + ", 100%, 75%";
 };
 
-const addNoteHandler = () => {
-  if (newNote.value.trim.length <= 10) {
+const closeModal = () => {
+  showModal.value = false; // close the modal, easy-peasy :)
+  newNote.value = "H-hewwo?"; // reset
+  errorMessage.value = ""; // reset
+}
 
+const addNoteHandler = () => {
+  if (newNote.value.length < 10) {
     alert("Note must be >= 10 characters.")
-    return errorMessage.value="Note must be >= 10 characters."
+    errorMessage.value="Note must be >= 10 characters."
+    return;
   }
   allNotes.value.push({
     id: Math.floor(Math.random() * 100000),
@@ -22,15 +28,9 @@ const addNoteHandler = () => {
     date: new Date(),
     backgroundColor: getRandomColor(),
   });
-  showModal.value = false; // close the modal, easy-peasy :)
-  newNote.value = "H-hewwo?"; // reset
-  errorMessage.value = ""; // reset
+  closeModal();
 };
 
-const closeModal = () => {
-  errorMessage.value = "";
-  showModal.value = false;
-}
 </script>
 
 <!-- Note: screen readers are another v-if vs. v-show -->
@@ -163,7 +163,7 @@ header button {
 
 .main-text {
   font-size: .9rem;
-  overflow: scroll;
+  overflow: auto;
 }
 
 .date {
