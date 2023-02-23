@@ -1,20 +1,55 @@
+<script setup>
+import { ref } from "vue";
+
+const showModal = ref(false); // boolean click event
+const newNote = ref("H-h-h hewwo?"); // v-model
+const allNotes = ref([]);
+
+const getRandomColor = () => {
+  return "hsl(" + Math.random() * 360 + ", 100%, 75%";
+}
+
+const addNoteHandler = () => {
+  allNotes.value.push({
+    id: Math.floor(Math.random() * 100000),
+    text: newNote.value,
+    date: new Date(),
+    backgroundColor: getRandomColor()
+  });
+  showModal.value = false; // close the modal, easy-peasy :)
+  newNote.value = "H-h-h hewwo?";
+}
+</script>
+
+<!-- Note: screen readers are another v-if vs. v-show -->
+
 <template>
   <main>
-    <div class="overlay">
+    <div v-if="showModal" class="overlay">
       <div class="modal">
-        <textarea name="note" id="note" cols="30" rows="10"></textarea>
-        <button>Add Note</button>
-        <button class="close">Close</button>
+        <textarea
+          v-model="newNote"
+          name="note"
+          id="note"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <button @click="addNoteHandler">Add Note</button>
+        <button @click="showModal = false" class="close">Close</button>
       </div>
     </div>
     <div class="container">
       <header>
         <h1>Notes</h1>
-        <button>+</button>
+        <p>{{ allNotes }}</p>
+        <button @click="showModal = true">+</button>
       </header>
       <div class="cards-container">
         <div class="card">
-          <p class="main-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur laboriosam optio id esse voluptatum sint.</p>
+          <p class="main-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+            laboriosam optio id esse voluptatum sint.
+          </p>
           <p class="date">02/22/2023</p>
         </div>
       </div>
@@ -23,8 +58,8 @@
 </template>
 
 <style scoped>
-*{
-  font-family: 'Courier New', Courier, monospace;
+* {
+  font-family: "Courier New", Courier, monospace;
 }
 
 main {
@@ -32,17 +67,11 @@ main {
   width: 100vw;
 }
 
-.container {
-  max-width: 90vw;
-  padding: 1rem;
-  margin: 0 auto;
-}
-
 .overlay {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, .50);
+  background-color: rgba(0, 0, 0, 0.5);
   z-index: 10;
   display: flex;
   align-items: center;
@@ -59,7 +88,7 @@ main {
 }
 
 .modal button {
-  padding: .75rem;
+  padding: 0.75rem;
   font-size: 1rem;
   width: 100%;
   background-color: black;
@@ -69,7 +98,13 @@ main {
 
 .modal .close {
   background-color: red;
-  margin-top: .25rem;
+  margin-top: 0.25rem;
+}
+
+.container {
+  max-width: 90%;
+  padding: 1rem;
+  margin: 0 auto;
 }
 
 header {
@@ -101,14 +136,14 @@ header button {
   width: 25vw;
   height: 25vh;
   background-color: aquamarine;
-  padding: 1rem;
+  padding: 1.5rem;
   border-radius: 15px;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .date {
-  font-size: .75rem;
+  font-size: 0.75rem;
   font-weight: bold;
 }
 </style>
