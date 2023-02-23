@@ -2,22 +2,34 @@
 import { ref } from "vue";
 
 const showModal = ref(false); // boolean click event
-const newNote = ref("H-h-h hewwo?"); // v-model
+const newNote = ref("H-hewwo?"); // v-model
+const errorMessage = ref("") // empty string == false
 const allNotes = ref([]);
 
 const getRandomColor = () => {
   return "hsl(" + Math.random() * 360 + ", 100%, 75%";
-}
+};
 
 const addNoteHandler = () => {
+  if (newNote.value.trim.length <= 10) {
+
+    alert("Note must be >= 10 characters.")
+    return errorMessage.value="Note must be >= 10 characters."
+  }
   allNotes.value.push({
     id: Math.floor(Math.random() * 100000),
     text: newNote.value,
     date: new Date(),
-    backgroundColor: getRandomColor()
+    backgroundColor: getRandomColor(),
   });
   showModal.value = false; // close the modal, easy-peasy :)
-  newNote.value = "H-h-h hewwo?";
+  newNote.value = "H-hewwo?"; // reset
+  errorMessage.value = ""; // reset
+};
+
+const closeModal = () => {
+  errorMessage.value = "";
+  showModal.value = false;
 }
 </script>
 
@@ -34,23 +46,27 @@ const addNoteHandler = () => {
           cols="30"
           rows="10"
         ></textarea>
+        <p v-if="errorMessage" style="color: red;">{{ errorMessage }}</p>
         <button @click="addNoteHandler">Add Note</button>
-        <button @click="showModal = false" class="close">Close</button>
+        <button @click="closeModal" class="close">Close</button>
       </div>
     </div>
     <div class="container">
       <header>
         <h1>Notes</h1>
-        <p>{{ allNotes }}</p>
         <button @click="showModal = true">+</button>
       </header>
       <div class="cards-container">
-        <div class="card">
+        <div
+          v-for="x in allNotes"
+          :key="x.id"
+          class="card"
+          :style="{ backgroundColor: x.backgroundColor }"
+        >
           <p class="main-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
-            laboriosam optio id esse voluptatum sint.
+            {{ x.text }}
           </p>
-          <p class="date">02/22/2023</p>
+          <p class="date">{{ x.date.toLocaleDateString("en-US") }}</p>
         </div>
       </div>
     </div>
@@ -111,6 +127,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0.5rem;
 }
 
 h1 {
@@ -128,18 +145,25 @@ header button {
   cursor: pointer;
 }
 
-.card-container {
+.cards-container {
   display: flex;
   flex-wrap: wrap;
 }
 .card {
-  width: 25vw;
-  height: 25vh;
+  width: 30vw;
+  height: 30vh;
   background-color: aquamarine;
   padding: 1.5rem;
+  margin: 0.5rem;
   border-radius: 15px;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.main-text {
+  font-size: .9rem;
+  overflow: scroll;
 }
 
 .date {
